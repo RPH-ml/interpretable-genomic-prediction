@@ -38,7 +38,7 @@ Genomic prediction (GP) has long suffered a dichotomy between the need for the h
 
 ### **Performance & Results**
 
-Benchmarking: PipelineV1.0 was evaluated against benchmarks established in the wheat yield study by Zou et al. To ensure a rigorous comparison, PipelineV1.0 was tested on a dataset closely resembling the original study (within 5% variation), while baseline model performances are cited directly from the published literature.
+Benchmarking: PipelineV1.0 was evaluated against benchmarks established in the wheat yield study by Zou et al (see references). To ensure a rigorous comparison, PipelineV1.0 was tested on a dataset closely resembling the original study (within 5% variation), while baseline model performances are cited directly from the published literature.
 
 <img width="545" height="616" alt="image" src="https://github.com/user-attachments/assets/af15d589-c039-4d59-9ff2-9cd862da1506" />
 
@@ -75,16 +75,20 @@ The biological relevance of the model's attention mechanism was validated by cro
 <img width="762" height="636" alt="image" src="https://github.com/user-attachments/assets/0125aac1-c10c-4ec7-871e-f08e46b8d03f" />
 
 * **Significant Overlap:** The two highest-contributing SNP clusters—**Chr2D:423,337,336–506,778,844** and **Chr3A:698,436–19,976,295**—demonstrated full or partial overlap with reported loci controlling critical grain yield parameters.
+  
 * **Yield-Related Parameters:** Identified clusters correspond to known QTLs for:
     * Grain aspect ratio and width.
     * Kernel thickness/length ratio.
     * Thousand-grain weight (TGW).
+      
 * **Statistical Significance:** Enrichment analysis confirmed these overlaps are non-random with a p-value of **$p = 0.004$**.
+  
 * **Methodology:** QTL positional information was verified using marker primer sequences retrieved from the **GrainGenes database** and **NCBI BLAST** to ensure precise genomic alignment.
 
 > **Impact:** This statistical support ($p < 0.01$) proves that PipelineV1.0 effectively prioritizes genomic regions with established functional roles in wheat development, bridging the gap between deep learning and molecular breeding.
 
 ### **Status**
+
 ⚠️ **Code Repository Status:** The core source code for PipelineV1.0 is currently undergoing final refactoring and optimization for open-source release. 
 * **Current Phase:** Finalizing documentation and environment configurations.
 
