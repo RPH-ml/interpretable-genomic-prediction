@@ -12,7 +12,8 @@ Genomic prediction (GP) has long suffered a dichotomy between the need for the h
 
 **The "Bridge":** Crucially, attention maps are backpropagated through the DAE encoder back to the original SNP scale.
 
-<img width="940" height="656" alt="image" src="https://github.com/user-attachments/assets/48145754-bcf3-46d4-9517-f513537a772c" />
+<img width="1521" height="1062" alt="Pipelinenolab drawio" src="https://github.com/user-attachments/assets/dbf0bf8f-6ffe-4a52-9d71-50c4a217c787" />
+
 
 ### **Pipeline Schematic Key**
 
